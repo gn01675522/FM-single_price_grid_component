@@ -1,0 +1,12 @@
+:root {
+  --bg-color-base: #e6eff5;
+  --bg-color-primary: #2ab3b1;
+  --bg-color-secondary: white;
+  --bg-color-tertiary: #c0df33;
+  --font-color-primary: white;
+  --font-color-secondary: #9aa7be;
+  --font-color-tertiary: #2ab3b1;
+  --font-color-quaternary: #c0df33;
+  --shadow-main-card: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+  --shadow-button: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}

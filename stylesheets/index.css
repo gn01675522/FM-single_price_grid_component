@@ -1,0 +1,226 @@
+@import "./variable.css";
+
+main {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background-color: var(--bg-color-base);
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 2rem;
+}
+
+.single-price {
+  min-width: 311px;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: var(--shadow-main-card);
+}
+
+.single-price__join-card {
+  width: 100%;
+  height: 100%;
+  padding: 28px 24px 32px 24px;
+  background-color: var(--bg-color-secondary);
+  border-radius: 5px 5px 0 0;
+}
+
+.single-price__join-card-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: var(--bg-color-tertiary);
+}
+
+.single-price__join-card-sub-title {
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.187px;
+  line-height: 20px;
+  color: var(--font-color-quaternary);
+}
+
+.single-price__join-card-para {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.175px;
+  color: var(--font-color-secondary);
+}
+
+.single-price__subscription {
+  width: 100%;
+  height: min-content;
+  background-color: var(--bg-color-primary);
+}
+
+.single-price__subscription-card {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
+.single-price__subscription-card-title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: var(--font-color-primary);
+}
+
+.single-price__subscription-price-tag {
+  display: flex;
+  height: 37px;
+  gap: 11px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.single-price__subscription-price {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: var(--font-color-primary);
+}
+
+.single-price__subscription-period {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: var(--font-color-primary);
+  opacity: 0.5;
+}
+
+.single-price__subscription-card-sub-title {
+  margin-bottom: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: var(--font-color-primary);
+}
+
+.single-price__subscription-btn {
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: var(--font-color-primary);
+  background-color: var(--bg-color-tertiary);
+  box-shadow: var(--shadow-button);
+  cursor: pointer;
+}
+
+.single-price__reason {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 5px 5px;
+  background-color: rgba(255, 255, 255, 0.1519);
+}
+
+.single-price__reason-card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.single-price__reason-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  color: var(--font-color-primary);
+}
+
+.single-price__reason-card-para {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: var(--font-color-primary);
+  opacity: 0.75;
+}
+
+.single-price__footer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-price__footer-attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.single-price__footer-attribution a {
+  color: var(--font-color-secondary);
+}
+
+@media screen and (min-width: 565px) {
+  main {
+    align-items: center;
+    padding: 5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    padding: 5rem 7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 5rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .single-price {
+    width: 635px;
+    border-radius: 8px;
+  }
+  .single-price__join-card {
+    padding: 40px;
+    border-radius: 8px 8px 0 0;
+  }
+  .single-price__join-card-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+  .single-price__join-card-sub-title {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+  }
+  .single-price__join-card-para {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+  }
+  .single-price__subscription {
+    display: flex;
+    border-radius: 0 0 8px 8px;
+  }
+  .single-price__subscription-card {
+    padding: 40px 40px 39px 40px;
+  }
+  .single-price__reason {
+    border-radius: 0 0 8px 0;
+  }
+  .single-price__reason-card {
+    padding: 40px;
+  }
+}
